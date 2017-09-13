@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kotlin-DataBinding</string>
+    <string name="whats_your_name">"What's your name?"</string>
+    <string name="where_you_from">Where you from?</string>
+
+    <string name="contract">"Hello my name is %s and I'm from %s!"</string>
+</resources>
