@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        user = savedInstanceState?.getSerializable(USER) as User? ?: User.build("Rodrigo", "Brazil")
+        user = savedInstanceState?.getSerializable(USER) as User? ?: User.build("Rodrigo Simões Rosa", "Brazil")
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
         binding.user = user
     }
